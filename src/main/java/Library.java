@@ -5,7 +5,16 @@
  * @author Maciej, @date 11/18/16 3:30 PM
  */
 public class Library {
+
+    public String ruleBreaker = "rule breaker";
+
     public boolean someLibraryMethod() {
         return true;
+    }
+
+    public void breakTherules(String ruleBreaker) {
+        if (ruleBreaker == this.ruleBreaker) {
+            System.out.println("Breaking some sonar rules");
+        }
     }
 }

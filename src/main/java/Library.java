@@ -6,15 +6,17 @@
  */
 public class Library {
 
-    public String ruleBreaker = "rule breaker";
 
     public boolean someLibraryMethod() {
         return true;
     }
 
     public void breakTherules(String ruleBreaker) {
-        if (ruleBreaker == this.ruleBreaker) {
+        if ("rule breaker" == ruleBreaker) {
             System.out.println("Breaking some sonar rules");
         }
+        //thread.run();
     }
+
+    Thread thread;
 }

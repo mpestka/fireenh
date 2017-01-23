@@ -16,7 +16,12 @@ public class LibraryTest {
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
     
+    @Test
+    public void dontfail() {
+        //Assert.fail("just fail here");
+    }
     
+    @Test
     public void fail() {
         Assert.fail("just fail here");
     }

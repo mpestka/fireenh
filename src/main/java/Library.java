@@ -15,7 +15,7 @@ public class Library {
         if ("rule breaker" == ruleBreaker) {
             System.out.println("Breaking some sonar rules");
         }
-        //thread.run();
+        thread.run();
     }
 
     Thread thread;

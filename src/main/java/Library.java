@@ -12,14 +12,23 @@ public class Library {
         return true;
     }
 
-    public void breakTherules(String ruleBreaker) {
+    public String breakTherules(String ruleBreaker) {
         if ("rule breaker" == ruleBreaker) {
             System.out.println("Breaking some sonar rules");
         }
         //thread.run();
+        
+        return ruleBreaker;
     }
     
     public boolean string_compare() {
         return "test" == new String();
+    }
+    
+    
+    public String PleaseBreakSomeMore(int a) {
+        a = 5;
+        
+        return breakTherules("" + a);
     }
 }

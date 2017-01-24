@@ -18,7 +18,7 @@ public class LibraryTest {
     
     @Test
     public void dontfail() {
-        new Library().breakTherules("ruleBreaker");
+        //commenting to drop coverage new Library().breakTherules("ruleBreaker");
         //Assert.fail("just fail here");
     }
     

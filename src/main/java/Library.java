@@ -15,9 +15,9 @@ public class Library {
     public String breakTherules(String ruleBreaker) {
         if ("rule breaker" == ruleBreaker) {
             System.out.println("Breaking some sonar rules");
+            thread.run(); // I want the metics to fail finally!!!
         }
-        //thread.run();
-        
+
         return ruleBreaker;
     }
     

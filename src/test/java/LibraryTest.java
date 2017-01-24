@@ -36,4 +36,8 @@ public class LibraryTest {
     public void fail3() {
         Assert.fail("just fail here");
     }
+    @Test
+    public void fail4() {
+        Assert.fail("just fail here");
+    }
 }

@@ -6,7 +6,8 @@
  */
 public class Library {
 
-
+    final Thread thread = null;
+    
     public boolean someLibraryMethod() {
         return true;
     }
@@ -15,8 +16,10 @@ public class Library {
         if ("rule breaker" == ruleBreaker) {
             System.out.println("Breaking some sonar rules");
         }
-        thread.run();
+        //thread.run();
     }
-
-    Thread thread;
+    
+    public boolean string_compare() {
+        return "test" == new String();
+    }
 }

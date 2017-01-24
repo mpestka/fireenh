@@ -26,4 +26,14 @@ public class LibraryTest {
     public void fail() {
         Assert.fail("just fail here");
     }
+    
+    @Test
+    public void fail2() {
+        Assert.fail("just fail here");
+    }
+    
+    @Test
+    public void fail3() {
+        Assert.fail("just fail here");
+    }
 }

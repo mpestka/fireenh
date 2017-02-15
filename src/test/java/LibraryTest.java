@@ -19,12 +19,12 @@ public class LibraryTest {
     @Test
     public void dontfail() {
         new Library().breakTherules("ruleBreaker");
-        Assert.fail("just fail here");
+        //Assert.fail("just fail here");
     }
     
     @Test
     public void fail() {
-        //Assert.fail("just fail here");
+        Assert.fail("just fail here");
     }
     
     @Test
@@ -37,7 +37,7 @@ public class LibraryTest {
         Assert.fail("just fail here");
     }
     @Test
-    public void fail4() {
-        Assert.fail("just fail here");
+    public void exception() {
+        throw new NullPointerException();
     }
 }
